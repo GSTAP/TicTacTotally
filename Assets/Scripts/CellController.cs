@@ -25,6 +25,8 @@ public class CellController : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		Debug.Log(this.name + " pressed.");
+
 		if (spRender.sprite == null)
 		{
 			spRender.sprite = xPiece;
