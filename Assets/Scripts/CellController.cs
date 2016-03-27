@@ -6,7 +6,7 @@ public class CellController : MonoBehaviour {
 	private SpriteRenderer spRender;
 
 	public Sprite xPiece;
-	public Sprite yPiece;
+	public Sprite oPiece;
 
 	void Awake()
 	{
